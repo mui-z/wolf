@@ -1,3 +1,3 @@
 # Wolf
 
-the simple swift cli tool template.
+Sync xcode project ui component dir to swift playground project for preview faster.
