@@ -12,6 +12,8 @@ and displays a preview of the component to improve development efficiency.
 
 ## Usage
 
+demo gif.
+
 ### pull
 
 This command synchronizes the files under Xcode with the Swift Playgrounds project directory at hand.
