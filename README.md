@@ -25,7 +25,7 @@ wolf pull XCODE_PROJECT_SPM_DIR YOUR_PLAYGROUNDS_SOURCES_DIR
 
 ```bash
 wolf push XCODE_PROJECT_SPM_DIR YOUR_PLAYGROUNDS_SOURCES_DIR
-# wolf pull ~/projects/FooApp/FooAppPackage/UIComponent ./
+# wolf push ~/projects/FooApp/FooAppPackage/UIComponent ./
 ```
 
 This command push to xcode and apply changes.
@@ -35,8 +35,12 @@ Note that this command forces an overwrite!
 
 ```bash
 wolf sync XCODE_PROJECT_SPM_DIR YOUR_PLAYGROUNDS_SOURCES_DIR
-# wolf pull ~/projects/FooApp/FooAppPackage/UIComponent ./
+# wolf sync ~/projects/FooApp/FooAppPackage/UIComponent ./
 ```
 
 Performs two-way file synchronization.
 Wolf monitors both target directories and synchronizes file changes as needed.
+
+## Todo
+
+- [ ] 
