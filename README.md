@@ -17,15 +17,15 @@ and displays a preview of the component to improve development efficiency.
 This command synchronizes the files under Xcode with the Swift Playgrounds project directory at hand.
 
 ```bash
-wolf pull XCODE_PROJECT_SPM_DIR YOUR_PLAYGROUNDS_SOURCES_DIR
-# wolf pull ~/projects/FooApp/FooAppPackage/UIComponent ./
+wolf pull XCODE_PROJECT_SPM_DIR
+# wolf pull ~/projects/FooApp/FooAppPackage/UIComponent
 ```
 
 ### push
 
 ```bash
-wolf push XCODE_PROJECT_SPM_DIR YOUR_PLAYGROUNDS_SOURCES_DIR
-# wolf push ~/projects/FooApp/FooAppPackage/UIComponent ./
+wolf push XCODE_PROJECT_SPM_DIR 
+# wolf push ~/projects/FooApp/FooAppPackage/UIComponent
 ```
 
 This command push to xcode and apply changes.
@@ -34,8 +34,8 @@ Note that this command forces an overwrite!
 ### sync
 
 ```bash
-wolf sync XCODE_PROJECT_SPM_DIR YOUR_PLAYGROUNDS_SOURCES_DIR
-# wolf sync ~/projects/FooApp/FooAppPackage/UIComponent ./
+wolf sync XCODE_PROJECT_SPM_DIR 
+# wolf sync ~/projects/FooApp/FooAppPackage/UIComponent
 ```
 
 Performs two-way file synchronization.

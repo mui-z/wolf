@@ -9,7 +9,15 @@ class Push: Command {
     let name: String = "push"
     let shortDescription: String = "Push to Xcode and apply changes"
 
-    func execute() throws {
+    @Param
+    var xcodeDirPath: String
 
+    func execute() throws {
+        let stderr = PipeStream()
+        Task(
+            executable: "mv",
+            arguments: ["./Sources", xcodeDirPath],
+            stderr: stderr
+        ).runSync()
     }
 }

@@ -14,14 +14,11 @@ class Pull: Command {
     @Param
     var xcodeDirPath: String
 
-    @Param
-    var playgroundDirPath: String
-
     func execute() throws {
         let stderr = PipeStream()
         Task(
             executable: "mv",
-            arguments: [xcodeDirPath, playgroundDirPath],
+            arguments: [xcodeDirPath, "./Sources"],
             stderr: stderr
         ).runSync()
     }
