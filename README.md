@@ -28,8 +28,7 @@ wolf push XCODE_PROJECT_SPM_DIR YOUR_PLAYGROUNDS_SOURCES_DIR
 # wolf pull ~/projects/FooApp/FooAppPackage/UIComponent ./
 ```
 
-This command push to xcode and reflect changes.
-It could not run in running auto reflect changes.
+This command push to xcode and apply changes.
 Note that this command forces an overwrite!
 
 ### sync
