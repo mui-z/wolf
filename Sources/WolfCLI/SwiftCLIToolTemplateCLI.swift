@@ -2,7 +2,7 @@ import SwiftCLI
 import Rainbow
 import Foundation
 
-public class SwiftCLIToolTemplateCLI {
+public class WolfCLI {
     public init() {}
     public func run() -> Never {
         Rainbow.enabled = Term.isTTY
