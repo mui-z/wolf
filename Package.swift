@@ -7,7 +7,7 @@ let package = Package(
     name: "Wolf",
     platforms: [.macOS(.v10_15)],
     products: [
-        .executable(name: "test", targets: ["Wolf"]),
+        .executable(name: "wolf", targets: ["Wolf"]),
     ],
     dependencies: [
         .package(url: "https://github.com/onevcat/Rainbow", from: "4.0.1"),
