@@ -1,3 +1,9 @@
+svg)
+[![License](https://img.shields.io/github/license/mui-z/GithubRepoSearcher?labelColor=333333)](https://github.com/mui-z/wolf/blob/main/LICENSE)
+[![Swift](https://img.shields.io/badge/Swift-FA7343)](https://github.com/apple/swift)
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/mui_z_.svg?style=social&label=Follow%20%40mui-z)](https://twitter.com/mui_z_)
+
+
 # Wolf[WIP]
 
 Sync xcode project ui component dir to swift playground project for preview faster.
