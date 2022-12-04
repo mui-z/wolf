@@ -8,13 +8,17 @@
 
 Sync xcode project ui component dir to swift playground project for preview faster.
 
-## About
+## Motivation
 
-Swift Playgrounds could preview show faster than Xcode.  
+SwiftUI Preview on Xcode is very slow and sometimes crash.
+
+This is frustrating when you just want to display a component.
+
+Swift Playgrounds can preview show faster than Xcode.  
 But it is not suitable for building regular apps.
 
-This software synchronizes the source code on Xcode with Swift Playgrounds
-and displays a preview of the component to improve development efficiency.
+So I developed this tool to synchronize Swift Playgrounds with the source code on Xcode
+synchronize with it and show previews of components to improve development efficiency.
 
 ## Installation 
 
