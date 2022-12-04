@@ -17,8 +17,9 @@ This is frustrating when you just want to display a component.
 Swift Playgrounds can preview show faster than Xcode.  
 But it is not suitable for building regular apps.
 
-So I developed this tool to synchronize Swift Playgrounds with the source code on Xcode
-synchronize with it and show previews of components to improve development efficiency.
+So I developed this tool.
+
+It synchronizes Swift Playgrounds with the source code on Xcode and displays previews of components to improve development efficiency.
 
 ## Installation 
 
