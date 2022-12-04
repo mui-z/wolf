@@ -15,9 +15,7 @@ SwiftUI Preview on Xcode is very slow and sometimes crash.
 This is frustrating when you just want to display a component.
 
 Swift Playgrounds can preview show faster than Xcode.  
-But it is not suitable for building regular apps.
-
-So I developed this tool.
+But it is not suitable for building regular apps, so I developed this tool.
 
 It synchronizes Swift Playgrounds with the source code on Xcode and displays previews of components to improve development efficiency.
 
