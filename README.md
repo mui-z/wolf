@@ -20,6 +20,7 @@ It synchronizes Swift Playgrounds with the source code on Xcode and displays pre
 
 ## Installation 
 
+Install with Mint🌱
 ```bash
 mint install mui-z/wolf
 ```
