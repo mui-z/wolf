@@ -10,6 +10,12 @@ But it is not suitable for building regular apps.
 This software synchronizes the source code on Xcode with Swift Playgrounds
 and displays a preview of the component to improve development efficiency.
 
+## Installation 
+
+```bash
+mint install mui-z/wolf
+```
+
 ## Usage
 
 demo gif.
