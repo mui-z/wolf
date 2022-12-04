@@ -33,12 +33,12 @@ demo gif.
 
 ### pull
 
-This command synchronizes the files under Xcode with the Swift Playgrounds project directory at hand.
-
 ```bash
 wolf pull XCODE_PROJECT_SPM_DIR
 # wolf pull ~/projects/FooApp/FooAppPackage/UIComponent
 ```
+
+Synchronizes the files under Xcode with the Swift Playgrounds project directory at hand.
 
 ### push
 
@@ -47,7 +47,7 @@ wolf push XCODE_PROJECT_SPM_DIR
 # wolf push ~/projects/FooApp/FooAppPackage/UIComponent
 ```
 
-This command push to xcode and apply changes.
+Push to xcode and apply changes.
 Note that this command forces an overwrite!
 
 ### sync
