@@ -4,7 +4,7 @@
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/mui_z_.svg?style=social&label=Follow%20%40mui-z)](https://twitter.com/mui_z_)
 
 
-# Wolf [WIP, I'm going to rewrite by typescrypt]
+# Wolf [WIP, I'm going to rewrite by TypeScrypt]
 
 Sync xcode project ui component dir to swift playground project for preview faster.
 
